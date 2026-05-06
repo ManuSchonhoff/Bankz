@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-alexandria: "Alexandria", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #05090A;
+  color: #F9F9F9;
+  font-family: var(--font-alexandria), sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #05090A;
+}
+::-webkit-scrollbar-thumb {
+  background: #8B7355;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a08a68;
+}
+
+::selection {
+  background-color: #8B7355;
+  color: #F9F9F9;
+}
+
+.bg-grid {
+  background-image: linear-gradient(rgba(249,249,249,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(249,249,249,0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
