@@ -10,22 +10,21 @@ const alexandria = Alexandria({
 });
 
 export const metadata: Metadata = {
-  title: "Bankz — Custodia privada de activos | Bahía Blanca",
+  title: "Bankz | Cajas de Seguridad Privadas en Bahía Blanca",
   description:
-    "Bankz ofrece custodia privada de activos con la más alta seguridad técnica, confidencialidad total y atención personalizada. Grupo Libertador Bahía S.A., Bahía Blanca, Argentina.",
+    "Bankz ofrece soluciones privadas de resguardo patrimonial para personas y empresas en Bahía Blanca. Seguridad técnica, confidencialidad y atención profesional.",
   keywords: [
+    "cajas de seguridad privadas",
+    "cajas de seguridad Bahía Blanca",
+    "resguardo patrimonial",
     "custodia privada",
-    "caja de seguridad",
-    "Bahía Blanca",
-    "activos",
-    "confidencialidad",
-    "seguridad",
+    "seguridad patrimonial",
     "Bankz",
   ],
   openGraph: {
-    title: "Bankz — Custodia privada de activos",
+    title: "Bankz | Cajas de Seguridad Privadas en Bahía Blanca",
     description:
-      "Seguridad técnica, confidencialidad y profesionalismo. Bahía Blanca, Argentina.",
+      "Soluciones privadas de resguardo patrimonial para personas y empresas. Seguridad técnica, confidencialidad y atención profesional.",
     type: "website",
     locale: "es_AR",
   },
